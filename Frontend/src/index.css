@@ -1,0 +1,60 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.input_highlight{
+    border-bottom: 1px solid rgb(124, 123, 123)!important;
+    box-shadow: 0 0.5px 0 0 rgb(124, 123, 123)!important;
+}
+
+input.input_highlight + label{
+    color:rgb(92, 88, 88)!important;
+}
+
+input.input_highlight + label:focus{
+    color: rgba(61, 61, 61, 0)!important;
+}
+
+input.input_highlight:focus{
+    border-bottom: 1px solid #b30000!important;
+    box-shadow: 0 1px 0 0 #ffffff!important;
+}
+
+[type="radio"]:checked+span:after{
+    background-color:#dd1717!important;
+    border: 2px solid #dd1717;
+}
+
+label {
+    color: #000000;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh!important;
+    height: 100vh;
+}
+
+
+p.question{
+    padding-top: 15px;
+}
+
+div.container{
+    flex: 1 1 auto!important;
+}
+
+.page-footer{
+    padding-top: 10px!important ;
+    background-color: #b30000;
+}
+
+
+div.containerquiz{
+    display:flex;
+    flex:0 0 auto;
+    flex-wrap: nowrap;
+}
+
+
+
+

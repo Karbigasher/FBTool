@@ -1,0 +1,6 @@
+{
+    "port" : 5000,
+    "jwtSecret": "segmentation fault",
+    "mongoUri" : "mongodb+srv://Segfault:12345229@cluster0.lfxxw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
